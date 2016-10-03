@@ -30,7 +30,7 @@ UM.Dialog
         {
             Text 
             {
-                text: "Density: "
+                text: "Density (kg/m^3): "
             }
             TextField 
             { 
@@ -46,7 +46,7 @@ UM.Dialog
         {
             Text 
             {
-                text: "Cost per kg: "
+                text: "Cost ($/kg): "
             }
             TextField 
             { 
@@ -60,12 +60,12 @@ UM.Dialog
         }
         Text
         {
-            text: "Weight of print " + Math.round(kg_material * 100 ) / 100 + " kg"
+            text: "Weight of print (g): " + Math.round(kg_material * 10000 ) / 10
         }
         
         Text
         {
-            text: "Print cost: " +  Math.round(price_per_kg * kg_material * 100) / 100
+            text: "Print cost ($): " +  Math.round(price_per_kg * kg_material * 100) / 100
         }
         
  
