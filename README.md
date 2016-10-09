@@ -1,7 +1,7 @@
 ### Changes made by bilalbari3
 Input and output units are displayed. Output is in grams instead of kg.
 
-# Original README below
+# Original README below ([link to original repository](https://github.com/nallath/PrintCostCalculator))
 
 ---
 
